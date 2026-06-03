@@ -1,0 +1,59 @@
+body {
+    background-color: #0D0D0D;
+    overflow: hidden;
+}
+
+.asideNavBar {
+    left: 0;
+    z-index: 999;
+}
+
+.asideNavBar li,
+i {
+    cursor: pointer;
+}
+
+.asideLeft {
+    background-color: #000000;
+}
+
+.asideRight {
+    width: 50px;
+}
+
+.meal {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mealLayer {
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.meal:hover .mealLayer {
+    top: 0;
+}
+
+.catecory {
+    background-color: #6C757D;
+}
+
+input::placeholder {
+    color: #808080 !important;
+}
+
+.loadingScreen {
+    z-index: 9999;
+    display: flex;
+}
+
+.innerLoadingScreen {
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    background-color: #0D0D0D;
+}
